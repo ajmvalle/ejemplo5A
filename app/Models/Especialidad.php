@@ -11,4 +11,12 @@ class Especialidad extends Model
     protected $table="specialties";
 
     protected $fillable=["name"];
+
+
+    //Tiene muchos estudiantes
+    public function students()
+    {
+        return $this->hasMany(Student::class);
+    }
+
 }

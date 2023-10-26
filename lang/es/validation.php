@@ -146,6 +146,11 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'lastname' => 'apellido',
+        'no_control' => 'número de control',
+        'name' => 'nombre',
+        'group' => 'grupo',
+    ],
 
 ];

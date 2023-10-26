@@ -25,6 +25,9 @@
 
                         <div class="flex items-center justify-end mt-4">
 
+                            <button class="ml-3">
+                                <a href="{{ route("especialidades") }}">Cancelar</a>
+                            </button>
 
                             <x-primary-button class="ml-3">
                             Guardar
